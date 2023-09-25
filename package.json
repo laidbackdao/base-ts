@@ -14,9 +14,14 @@
 	"author": "LAIDBACK DAO",
 	"license": "ISC",
 	"devDependencies": {
+		"husky": "^8.0.0",
 		"prettier": "3.0.3",
 		"tsx": "^3.13.0",
-		"typescript": "^5.2.2",
-		"husky": "^8.0.0"
+		"typescript": "^5.2.2"
+	},
+	"dependencies": {
+		"@t3-oss/env-core": "^0.6.1",
+		"@types/node": "^20.6.5",
+		"zod": "^3.22.2"
 	}
 }
