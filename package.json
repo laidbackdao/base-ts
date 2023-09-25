@@ -4,10 +4,10 @@
 	"description": "Typescript base.",
 	"main": "build/index.js",
 	"scripts": {
-		"start": "node build/index.js",
 		"build": "tsc",
 		"dev": "tsx watch src/index.ts",
-		"test": "echo \"Error: no test specified\" && exit 1",
+		"test": "vitest --watch",
+		"start": "node build/index.js",
 		"prepare": "husky install"
 	},
 	"keywords": [],
@@ -17,7 +17,8 @@
 		"husky": "^8.0.0",
 		"prettier": "3.0.3",
 		"tsx": "^3.13.0",
-		"typescript": "^5.2.2"
+		"typescript": "^5.2.2",
+		"vitest": "^0.34.5"
 	},
 	"dependencies": {
 		"@t3-oss/env-core": "^0.6.1",
