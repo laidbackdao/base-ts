@@ -1,0 +1,1 @@
+type HelloInput = string | undefined;
