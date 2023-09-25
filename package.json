@@ -13,6 +13,7 @@
   "author": "LAIDBACK DAO",
   "license": "ISC",
   "devDependencies": {
+    "prettier": "3.0.3",
     "tsx": "^3.13.0",
     "typescript": "^5.2.2"
   }
